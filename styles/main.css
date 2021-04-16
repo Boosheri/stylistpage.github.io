@@ -1,6 +1,6 @@
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&display=swap');
 
 .header-copy-wrapper, .email-form, footer {
   max-width: 380px;
