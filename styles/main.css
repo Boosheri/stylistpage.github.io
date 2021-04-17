@@ -60,6 +60,12 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media screen and (min-width: 992px) {
+  .splash-image {
+    background-image: url("../assets/desktop-splash.jpg");
+    background-position: right;
+  }
+}
 .email-form {
   margin-top: auto;
 }
