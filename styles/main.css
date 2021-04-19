@@ -45,7 +45,7 @@ nav {
   margin-right: auto;
 }
 .content {
-  height: 90vh;
+  height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
 }
@@ -59,12 +59,6 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-@media screen and (min-width: 992px) {
-  .splash-image {
-    background-image: url("../assets/desktop-splash.jpg");
-    background-position: right;
-  }
 }
 .email-form {
   margin-top: auto;
@@ -96,7 +90,6 @@ nav {
     max-width: 380px;
   }
 }
-
 footer {
   display: flex;
 }
@@ -105,4 +98,28 @@ footer > small {
   font-size: 10px;
   line-height: 13px;
   letter-spacing: 0.01px;
+}
+@media screen and (min-width: 992px) {
+  .splash-image {
+    background-image: url("../assets/desktop-splash.jpg");
+  }
+  .content {
+    justify-content: center;
+    height: calc(100vh - 89px);
+  }
+  h1 {
+    margin-bottom: 5px;
+  }
+  .email-form {
+    margin-top: 30px;
+  }
+  .header-copy-wrapper, .email-form {
+    margin-right: 70px;
+  }
+  footer {
+    margin-left: 0;
+  }
+  footer > small {
+    margin: 0 0 1rem 1rem;
+  }
 }
